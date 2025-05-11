@@ -1,5 +1,22 @@
 # Character generator | Генератор символов
 
+EN:
+
+This Python script generates all possible 5-character combinations (letters, numbers, special characters) and estimates memory costs. The length can be changed via the max_length parameter. Suitable for brute-force testing, password analysis or data generation.
+
+Libraries: tqdm
+
+Run: python main.py
+
+Features:
+
+    Customizable length (change max_length).
+
+    Supports all printable ASCII characters.
+
+    Shows the total number of combinations and the memory estimate before running.
+
+
 
 RU:
 
@@ -16,3 +33,4 @@ RU:
     Поддержка всех печатаемых ASCII-символов.
 
     Показывает общее число комбинаций и оценку памяти перед запуском.
+
