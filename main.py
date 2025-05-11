@@ -44,6 +44,8 @@ if __name__ == "__main__":
     chars = (
         "abcdefghijklmnopqrstuvwxyz"
         "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
+        "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
         "0123456789"
         "!@#$%^&*()_+-=[]{}|;:,.<>?"
     )
@@ -51,6 +53,6 @@ if __name__ == "__main__":
     generate_combinations(
         charset=chars,
         min_length=1,
-        max_length=8,
+        max_length=5,  # Осторожно! 492 ГБ+
         output_file="full_combinations.txt",
     )
